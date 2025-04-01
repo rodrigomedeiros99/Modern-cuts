@@ -1,13 +1,8 @@
 "use client";
 
-import { ArrowUp } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-
   return (
     <footer className="bg-black text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -78,17 +73,6 @@ export default function Footer() {
           <p className="text-gray-400 text-sm">
             © {new Date().getFullYear()} Modern Cuts. All rights reserved.
           </p>
-          {/*
-          
-          <button
-            onClick={scrollToTop}
-            className="mt-4 md:mt-0 bg-white  text-black p-3 rounded-full hover:bg-gray-200 transition-colors"
-            aria-label="Scroll to top"
-          >
-            <ArrowUp className="w-5 h-5 cursor-pointer" />
-          </button>
-            
-          */}
         </div>
       </div>
     </footer>
