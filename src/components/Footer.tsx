@@ -78,6 +78,8 @@ export default function Footer() {
           <p className="text-gray-400 text-sm">
             © {new Date().getFullYear()} Modern Cuts. All rights reserved.
           </p>
+          {/*
+          
           <button
             onClick={scrollToTop}
             className="mt-4 md:mt-0 bg-white  text-black p-3 rounded-full hover:bg-gray-200 transition-colors"
@@ -85,6 +87,8 @@ export default function Footer() {
           >
             <ArrowUp className="w-5 h-5 cursor-pointer" />
           </button>
+            
+          */}
         </div>
       </div>
     </footer>
